@@ -1,0 +1,31 @@
+{
+    "name": "NodeCrawler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "build": "node app.js && node gethtml.js && anywhere"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RainZhai/NodeCrawler.git"
+    },
+    "keywords": [
+        "node.js",
+        "crawler"
+    ],
+    "author": "Rain Zhai",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RainZhai/NodeCrawler.git/issues"
+    },
+    "homepage": "https://github.com/RainZhai/NodeCrawler.git",
+    "devDependencies": {
+        "cheerio": "^0.18.0",
+        "fs": "0.0.2",
+        "mkdirp": "^0.5.0",
+        "request": "^2.51.0",
+        "anywhere": "^1.4.0",
+        "iconv-lite": "^0.4.15"
+    }
+}
