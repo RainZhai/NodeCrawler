@@ -3,7 +3,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 var mkdirp = require('mkdirp');
 
-var site = "https://www.baidu.com/";
+var site = "https://m.vmall.com/";
 var dir = ''
 
 function makeDir(dirpath) {
@@ -50,5 +50,8 @@ var download = function(url, dir, filename) {
     });
 };
 
+//download("https://192.168.1.6:8001/test/swiper.min.css", "./test", "uuu.css")
+
+//download("https://res8.vmallres.com/nwap/20170227/css/echannelApp/echannel/swiper.min.css", "./test", "uuu.css")
 makeDir('test/my');
-requestUrl(site, 'img', 'src', 4, 'test/my');
+requestUrl(site, 'link', 'href', 4, 'test/my');
