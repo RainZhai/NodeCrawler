@@ -4,7 +4,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 var mkdirp = require('mkdirp');
 
-var url = 'http://wandeme.com'
+var url = 'http://www.aliued.cn/'
 var dir = '';
 
 function makeDir(dirpath) {
