@@ -1,9 +1,9 @@
-# Node.js-spider
+# NodeCrawler
 Node.js抓取网页及资源文件
 ## 安装Node.js
 http://nodejs.org/download/
 ## 安装依赖包
-npm install
+npm install / yarn install
 ## 运行程序
-node app.js
+npm run start
 
